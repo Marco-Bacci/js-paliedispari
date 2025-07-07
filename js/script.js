@@ -27,5 +27,7 @@
 // dichiaro variabili: pari o dispari, numero da 1 a 5, numero random pc da 1 a 5
 
 const oddOrEven = prompt(`scegli tra pari e dispari`)
-const userNumbers = prompt(`inserisci numero da 1 a 5`)
-const randomPc = Math.floor(Math.random() * 5)+ 1;
+const userNum = prompt(`inserisci numero da 1 a 5`)
+const PcNum = Math.floor(Math.random() * 5)+ 1;
+let sum = userNum + PcNum
+
