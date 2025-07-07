@@ -40,13 +40,11 @@ else{
   console.log(`la somma è dispari`)
 }
 
-
-
-
-
-
-
-
+// comparo le due stringhe per vedere se sono uguali e determinare se si ha vinto o perso
+if(oddOrEven===checkOdd(sum))
+console.log(`L'utente ha scelto ${oddOrEven}, la somma è ${checkOdd(sum)}, quindi ha vinto`)
+else
+console.log(`L'utente ha scelto ${oddOrEven}, la somma è ${checkOdd(sum)}, quindi ha perso`)
 
 
 
