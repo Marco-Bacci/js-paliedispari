@@ -24,10 +24,19 @@
 // }
 
 
-// dichiaro variabili: pari o dispari, numero da 1 a 5, numero random pc da 1 a 5
+// dichiaro variabile dchiedendo all'utente di scegliere tra pari e dispari
+const oddOrEven = prompt("scegli tra `pari` e `dispari`")
 
-const oddOrEven = prompt(`scegli tra pari e dispari`)
-const userNum = prompt(`inserisci numero da 1 a 5`)
-const PcNum = Math.floor(Math.random() * 5)+ 1;
-let sum = userNum + PcNum
+function random(){
+const userNum = parseInt(prompt("inserisci numero da 1 a 5"));
+const pcNum = Math.floor(Math.random() * 5)+ 1;
+console.log(`L'utente ha scelto ${userNum}, il pc ha scelto ${pcNum}`)
+return userNum + pcNum
+}
+
+
+
+
+
+
 
