@@ -32,6 +32,14 @@ const oddOrEven = prompt("scegli tra `pari` e `dispari`")
 let sum = random()
 console.log(`la somma è ${sum}`)
 
+// determino la stringa pari o dispari della funzione
+if(numCheck(sum) === `pari`){
+  console.log(`la somma è pari`)
+}
+else{
+  console.log(`la somma è dispari`)
+}
+
 
 
 
